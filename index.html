@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Source+Sans+Pro:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- JS -->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="navbar">
+        <img
+          id="header-img"
+          src="images/logo-black.png"
+          alt="not-a-cup black logo"
+        />
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#about-us">About Us</a></li>
+            <li><a class="nav-link" href="#products">Products</a></li>
+            <li><a class="nav-link" href="#cta">Newsletter</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="center-container">
+        <section id="hero">
+          <div class="container">
+            <h1>Not-A-Cup |<span> The safest way to drink coffee</span></h1>
+            <p>Drink your coffee whilst remaining undetected by aliens</p>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main>
+      <section id="about-us">
+        <div class="center-container">
+          <h2>Our History</h2>
+          <p>
+            <b>Not-A-Cup</b> was founded in 1941 in our CEO's mother's garage.
+            In the 30's there was an academic research that concluded that
+            drinking coffee with a cup made humans more prone to being abducted
+            by aliens. The research was condemned by the media and all
+            documentation and evidence collected in the research disappeared.
+          </p>
+          <p>
+            Worried about human wellfare, and not convinced by the lies the
+            media told him, our CEO started devising a device to drink coffee
+            that could not be detected by alien technology.
+          </p>
+          <p>
+            After a decade of prototyping and refinement, <b>Not-A-Cup</b> is
+            born. A device that allows you, human, to drink your coffee safely
+            without the worry of being detected by alien technology and possibly
+            kidnapped.
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/lAd3LYIZMjs"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section id="products">
+        <div class="center-container">
+          <h2>Our Selection of Products</h2>
+          <div class="card">
+            <h2>Not-A-Cup #1</h2>
+            <img src="images/not-a-cup-1.jpg" alt="Not-A-Cup model #1" />
+            <a class="btn" href="#">Learn More</a>
+          </div>
+          <div class="card">
+            <h2>Not-A-Cup #2</h2>
+            <img src="images/not-a-cup-2.jpg" alt="Not-A-Cup model #2" />
+            <a class="btn" href="#">Learn More</a>
+          </div>
+          <div class="card">
+            <h2>Not-A-Cup #3</h2>
+            <img src="images/not-a-cup-3.jpg" alt="Not-A-Cup model #3" />
+            <a class="btn" href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section id="cta">
+        <div class="center-container">
+          <form
+            id="form"
+            method="post"
+            action="https://www.freecodecamp.com/email-submit"
+          >
+            <h2>Subscribe to our Newsletter</h2>
+            <input placeholder="Email" id="email" type="email" />
+            <input id="submit" class="btn" type="submit" />
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="center-container">
+          <nav id="nav-footer">
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
