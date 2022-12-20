@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Source+Sans+Pro:wght@200;400;700&display=swap"
       rel="stylesheet"
     />
-
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
     <!-- JS -->
@@ -49,23 +48,25 @@
           <h2>Our History</h2>
           <p>
             <b>Not-A-Cup</b> was founded in 1941 in our CEO's mother's garage.
-            In the 30's there was an academic research that concluded that
-            drinking coffee with a cup made humans more prone to being abducted
-            by aliens. The research was condemned by the media and all
-            documentation and evidence collected in the research disappeared.
+            In the 30's an academic research conducted by the University of
+            Michigan concluded that drinking coffee with a cup made humans more
+            prone to being abducted by aliens. The research was condemned by the
+            media, and all evidence collected in 5 years of studies disappeared
+            overnight.
           </p>
           <p>
-            Worried about human wellfare, and not convinced by the lies the
-            media told him, our CEO started devising a device to drink coffee
-            that could not be detected by alien technology.
+            Worried about human wellfare, and convinced the media was lying, our
+            CEO started devising a device to drink coffee that could not be
+            detected by alien technology.
           </p>
           <p>
             After a decade of prototyping and refinement, <b>Not-A-Cup</b> is
             born. A device that allows you, human, to drink your coffee safely
             without the worry of being detected by alien technology and possibly
-            kidnapped.
+            abducted.
           </p>
           <iframe
+            id="video"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/lAd3LYIZMjs"
@@ -78,38 +79,43 @@
       <section id="products">
         <div class="center-container">
           <h2>Our Selection of Products</h2>
-          <div class="card">
-            <h2>Not-A-Cup #1</h2>
-            <img src="images/not-a-cup-1.jpg" alt="Not-A-Cup model #1" />
-            <a class="btn" href="#">Learn More</a>
-          </div>
-          <div class="card">
-            <h2>Not-A-Cup #2</h2>
-            <img src="images/not-a-cup-2.jpg" alt="Not-A-Cup model #2" />
-            <a class="btn" href="#">Learn More</a>
-          </div>
-          <div class="card">
-            <h2>Not-A-Cup #3</h2>
-            <img src="images/not-a-cup-3.jpg" alt="Not-A-Cup model #3" />
-            <a class="btn" href="#">Learn More</a>
+          <div class="grid-container">
+            <div class="card">
+              <p>Not-A-Cup #1</p>
+              <img src="images/not-a-cup-1.jpg" alt="Not-A-Cup model #1" />
+              <a class="btn" href="#">Buy Now</a>
+            </div>
+            <div class="card">
+              <p>Not-A-Cup #2</p>
+              <img src="images/not-a-cup-2.jpg" alt="Not-A-Cup model #2" />
+              <a class="btn" href="#">Buy Now</a>
+            </div>
+            <div class="card">
+              <p>Not-A-Cup #3</p>
+              <img src="images/not-a-cup-3.jpg" alt="Not-A-Cup model #3" />
+              <a class="btn" href="#">Buy Now</a>
+            </div>
           </div>
         </div>
       </section>
       <section id="cta">
-        <div class="center-container">
+        <div class="center-container red">
           <form
             id="form"
+            class="grid-container"
             method="post"
             action="https://www.freecodecamp.com/email-submit"
           >
             <h2>Subscribe to our Newsletter</h2>
-            <input placeholder="Email" id="email" type="email" />
-            <input id="submit" class="btn" type="submit" />
+            <fieldset>
+              <input placeholder="Email" id="email" type="email" />
+              <input id="submit" class="btn" type="submit" />
+            </fieldset>
           </form>
         </div>
       </section>
       <footer>
-        <div class="center-container">
+        <div class="center-container red">
           <nav id="nav-footer">
             <ul>
               <li><a href="#">Privacy</a></li>
