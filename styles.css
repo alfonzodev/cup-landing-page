@@ -261,7 +261,7 @@ section {
 .navbar-colored {
   background-color: var(--color-secondary);
   position: fixed;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .navbar-colored > #nav-bar ul li {
   border-bottom: 2px solid var(--color-bright);
