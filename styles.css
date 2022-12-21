@@ -169,11 +169,19 @@ select {
     font-size: var(--fs-350);
   }
 }
-/* ---- * ---- */
 
+/* General Styling */
 body {
   font-size: var(--fs-400);
   font-family: var(--ff-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px !important;
 }
 
 /* Header */
@@ -271,12 +279,14 @@ body {
 
 /* Responsive Navbar Hamburguer */
 
-.active {
-}
-
 .hamburguer {
   display: none;
   padding: 0 10px;
+}
+
+.hamburguer:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .hamburguer > * {
@@ -297,8 +307,14 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    height: 50vh;
+    height: 0;
     background-color: rgb(24 24 24 / 0.95);
+    overflow: hidden;
+    transition: 0.3s;
+  }
+
+  .active #nav-bar {
+    height: 50vh;
   }
 
   #nav-bar ul {
@@ -370,7 +386,6 @@ body {
 
 #about-us {
   background-color: var(--color-grey);
-  overflow: hidden;
   padding: 35px 0px;
 }
 
